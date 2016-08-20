@@ -2,6 +2,9 @@
 <assets>
   <Configs name="configs">
     <Config>Configs\Default</Config>
+    <Config>Configs\test</Config>
+    <Config>Configs\test</Config>
+    <Config>Configs\test</Config>
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
@@ -14,7 +17,12 @@
   <backgrounds name="background">
     <background>background\bck_floor</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_circle</path>
+  </paths>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\ft_src_code_pro</font>
   </fonts>
@@ -24,6 +32,9 @@
     <object>objects\obj_rum</object>
     <object>objects\obj_adm</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_release</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rm_floor_one</room>
     <room>rooms\rm_title</room>
