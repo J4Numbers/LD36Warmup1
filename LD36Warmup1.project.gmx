@@ -5,10 +5,27 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_jeff</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_rum</sprite>
+    <sprite>sprites\spr_adm</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bck_floor</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\ft_src_code_pro</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_jeff</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_rum</object>
+    <object>objects\obj_adm</object>
+  </objects>
   <rooms name="rooms">
+    <room>rooms\rm_floor_one</room>
     <room>rooms\rm_title</room>
   </rooms>
   <help>
